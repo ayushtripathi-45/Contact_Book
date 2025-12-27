@@ -57,7 +57,7 @@ contact_book/
 ```
 ---
 ## Preview
-<img width="1348" height="634" alt="Screenshot 2025-12-27 171418" src="https://github.com/user-attachments/assets/8365d8df-3092-471a-9db0-10cd222d7b05" />
+
 
 ---
 ## Working Demo 
