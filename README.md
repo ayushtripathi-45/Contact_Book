@@ -1,4 +1,4 @@
-# 📒 Contact Book 
+# 📒 FullStack Contact Book 
 
 A clean and functional **Contact Book web application** built using **HTML, CSS, JavaScript, Node.js, Express, and MySQL**.  
 This project demonstrates full CRUD operations with a structured backend and a responsive frontend UI.
