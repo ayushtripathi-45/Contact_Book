@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>📇 Contact Book</h1>
+        <p>Manage your contacts easily</p>
+      </header>
+
+      <main class="content">
+        <section class="form-section">
+          <h2>Add New Contact</h2>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Enter phone number"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter email address"
+              />
+            </div>
+
+            <button type="submit" id="submitBtn">Add Contact</button>
+          </form>
+
+          <p id="message"></p>
+        </section>
+
+        <section class="search-bar">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Search contacts by name, phone, or email..."
+          />
+        </section>
+
+        <section class="show-contacts">
+          <button id="toggleContactsBtn">Show Contacts</button>
+        </section>
+
+        <section class="contacts-section">
+          <div class="contact-count" id="contactCount">0 contacts</div>
+          <div id="contactList"></div>
+        </section>
+        <div id="contactOverlay" class="overlay">
+          <div class="overlay-content">
+            <h3>Your Contacts</h3>
+            <div id="overlayContactList"></div>
+            <button id="closeOverlay">Close</button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
