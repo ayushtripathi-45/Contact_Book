@@ -57,10 +57,15 @@ contact_book/
 ```
 ---
 ## Preview
+<img width="1363" height="645" alt="Screenshot 2025-12-27 175931" src="https://github.com/user-attachments/assets/01b073b9-ca59-4b3a-9715-7e4d032834cf" />
 
 
 ---
 ## Working Demo 
+
+
+https://github.com/user-attachments/assets/2d65a999-aaf5-4a52-baca-f0b8b248cde7
+
 
 ---
 ## 🔐 Security & Best Practices
